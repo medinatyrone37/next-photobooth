@@ -1,6 +1,8 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
-
+/* eslint-disable @typescript-eslint/no-unused-vars */
+import { Instagram } from "lucide-react";
+/* eslint-enable @typescript-eslint/no-unused-vars */
 import {
   Dialog,
   DialogContent,
@@ -10,10 +12,10 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
-import { Github, Globe, Instagram } from "lucide-react";
-import Image from "next/image";
 
-import tiktokLogo from "@/public/tiktok.svg";
+
+
+
 
 export const Header = () => {
   return (
